@@ -14,7 +14,7 @@ public class ConditionalEx {
    public static void switchEx3() {
 	   // JAVA 의 SWITCH  문은 CHAR, STRING 값 비교도 가능
 	   //-> Enum 타입에서 이 예제를 다시 변환해볼 예정
-	   String day = "MONDAY";
+	   String day = "FRIDAY";
 	   String act;
 	   
 	   switch(day) {
