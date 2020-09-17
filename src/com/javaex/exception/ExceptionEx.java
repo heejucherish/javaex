@@ -96,4 +96,3 @@ public class ExceptionEx {
 	}
 
 }
- 29  src/com/javaex/exception/ThrowsExcept.java 
