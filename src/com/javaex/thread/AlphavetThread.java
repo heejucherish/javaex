@@ -1,11 +1,20 @@
 package com.javaex.thread;
 
-public class AlphavetThread implements Runnable {
+public class AlphabetThread implements Runnable {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		// 쓰레드 실행 로직
+		for (char ch = 'A'; ch <= 'Z'; ch++) {
+			System.out.println("[AlphabetThread]:" + ch);
 
+			//	잠시 대기
+			try {
+				Thread.sleep(300); //	0.3 초 지연
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 }
